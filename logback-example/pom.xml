@@ -8,12 +8,14 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.7</java.version>
 		<org.slf4j-version>1.7.5</org.slf4j-version>
 		<logback-version>1.0.13</logback-version>
+		<junit.version>4.11</junit.version>
+		<maven-compiler-plugin.version>3.0</maven-compiler-plugin.version>
 	</properties>
 
 	<dependencies>
-
 		<!-- Logging -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -35,8 +37,23 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>${junit.version}</version>
 		</dependency>
-
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<!-- Needed to set the JRE System Library version as m2e defaults it to 1.5 -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
