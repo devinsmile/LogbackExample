@@ -1,0 +1,11 @@
+14:24:20.320 [main] INFO  c.e.l.logbackexample.App - main: constructor
+14:24:20.323 [main] WARN  c.e.l.logbackexample.App - main: constructor
+14:24:20.323 [main] ERROR c.e.l.logbackexample.App - main: constructor
+14:24:20.324 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+14:24:20.324 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+14:24:20.324 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+14:24:20.325 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+14:24:20.325 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+14:24:20.325 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+14:24:20.325 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+14:24:20.325 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
