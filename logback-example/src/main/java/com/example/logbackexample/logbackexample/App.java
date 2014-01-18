@@ -7,7 +7,7 @@ import com.example.logbackexample.logbackexample.a.Foo;
 import com.example.logbackexample.logbackexample.b.Bar;
 
 /**
- * Hello world!
+ * Hello logback!
  * 
  */
 public class App {

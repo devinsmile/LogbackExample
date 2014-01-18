@@ -9,3 +9,168 @@
 14:24:20.325 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
 14:24:20.325 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
 14:24:20.325 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+276 279 279 280 280 280 280 281 281 281 281 269 
+272 
+272 
+272 
+272 
+273 
+273 
+273 
+273 
+273 
+273 
+19:10:41.905 [main] INFO  c.e.l.logbackexample.App - main: constructor
+19:10:41.908 [main] WARN  c.e.l.logbackexample.App - main: constructor
+19:10:41.908 [main] ERROR c.e.l.logbackexample.App - main: constructor
+19:10:41.909 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+19:10:41.909 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+19:10:41.909 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+19:10:41.910 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+19:10:41.910 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:10:41.910 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:10:41.910 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:10:41.910 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+265  [main] INFO  c.e.l.logbackexample.App - main: constructor
+268  [main] WARN  c.e.l.logbackexample.App - main: constructor
+268  [main] ERROR c.e.l.logbackexample.App - main: constructor
+269  [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+269  [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+269  [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+269  [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+270  [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+270  [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+270  [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+270  [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+2014-01-18 19:16:54, INFO, com.example.logbackexample.logbackexample.App, main, 276, , c.e.l.l.App, main main: constructor
+2014-01-18 19:16:54, WARN, com.example.logbackexample.logbackexample.App, main, 280, , c.e.l.l.App, main main: constructor
+2014-01-18 19:16:54, ERROR, com.example.logbackexample.logbackexample.App, main, 280, , c.e.l.l.App, main main: constructor
+2014-01-18 19:16:54, INFO, com.example.logbackexample.logbackexample.a.Foo, main, 281, , c.e.l.l.a.Foo, <init> Foo: constructor
+2014-01-18 19:16:54, WARN, com.example.logbackexample.logbackexample.a.Foo, main, 281, , c.e.l.l.a.Foo, <init> Foo: constructor
+2014-01-18 19:16:54, ERROR, com.example.logbackexample.logbackexample.a.Foo, main, 281, , c.e.l.l.a.Foo, <init> Foo: constructor
+2014-01-18 19:16:54, ERROR, com.example.logbackexample.logbackexample.b.Bar, main, 282, , c.e.l.l.b.Bar, <init> Bar: constructor
+2014-01-18 19:16:54, INFO, com.example.logbackexample.logbackexample.a.Foo, main, 282, , c.e.l.l.a.Foo, printSomething Foo: printingSomething()
+2014-01-18 19:16:54, WARN, com.example.logbackexample.logbackexample.a.Foo, main, 282, , c.e.l.l.a.Foo, printSomething Foo: printingSomething()
+2014-01-18 19:16:54, ERROR, com.example.logbackexample.logbackexample.a.Foo, main, 282, , c.e.l.l.a.Foo, printSomething Foo: printingSomething()
+2014-01-18 19:16:54, ERROR, com.example.logbackexample.logbackexample.b.Bar, main, 283, , c.e.l.l.b.Bar, printSomething Bar: printingSomething()
+19:21:35.391 [main] INFO  c.e.l.logbackexample.App - main: constructor
+19:21:35.394 [main] WARN  c.e.l.logbackexample.App - main: constructor
+19:21:35.395 [main] ERROR c.e.l.logbackexample.App - main: constructor
+19:21:35.396 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+19:21:35.396 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+19:21:35.396 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+19:21:35.396 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+19:21:35.397 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:21:35.397 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:21:35.397 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:21:35.397 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+19:22:27.420 [main] INFO  c.e.l.logbackexample.App - main: constructor
+19:22:27.423 [main] WARN  c.e.l.logbackexample.App - main: constructor
+19:22:27.424 [main] ERROR c.e.l.logbackexample.App - main: constructor
+19:22:27.425 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+19:22:27.425 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+19:22:27.425 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+19:22:27.425 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+19:22:27.426 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:22:27.426 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:22:27.426 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:22:27.426 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+19:22:34.256 [main] INFO  c.e.l.logbackexample.App - main: constructor
+19:22:34.260 [main] WARN  c.e.l.logbackexample.App - main: constructor
+19:22:34.261 [main] ERROR c.e.l.logbackexample.App - main: constructor
+19:22:34.261 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+19:22:34.261 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+19:22:34.262 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+19:22:34.262 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+19:22:34.262 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:22:34.263 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:22:34.263 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+19:22:34.263 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+20:19:43.526 [main] INFO  c.e.l.logbackexample.App - main: constructor
+20:19:43.529 [main] WARN  c.e.l.logbackexample.App - main: constructor
+20:19:43.530 [main] ERROR c.e.l.logbackexample.App - main: constructor
+20:19:43.530 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:19:43.530 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:19:43.530 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+20:19:43.531 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+20:19:43.531 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:19:43.531 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:19:43.531 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:19:43.532 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+20:20:01.960 [main] INFO  c.e.l.logbackexample.App - main: constructor
+20:20:01.964 [main] WARN  c.e.l.logbackexample.App - main: constructor
+20:20:01.964 [main] ERROR c.e.l.logbackexample.App - main: constructor
+20:20:01.964 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:01.964 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:01.965 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:01.965 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+20:20:01.965 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:01.965 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:01.966 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:01.966 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+20:20:15.896 [main] INFO  c.e.l.logbackexample.App - main: constructor
+20:20:15.899 [main] WARN  c.e.l.logbackexample.App - main: constructor
+20:20:15.899 [main] ERROR c.e.l.logbackexample.App - main: constructor
+20:20:15.900 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:15.900 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:15.900 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:15.901 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+20:20:15.901 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:15.901 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:15.901 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:15.901 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+20:20:32.839 [main] INFO  c.e.l.logbackexample.App - main: constructor
+20:20:32.842 [main] WARN  c.e.l.logbackexample.App - main: constructor
+20:20:32.842 [main] ERROR c.e.l.logbackexample.App - main: constructor
+20:20:32.843 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:32.843 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:32.843 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:32.844 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+20:20:32.844 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:32.844 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:32.844 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:32.844 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+20:20:37.968 [main] INFO  c.e.l.logbackexample.App - main: constructor
+20:20:37.972 [main] WARN  c.e.l.logbackexample.App - main: constructor
+20:20:37.972 [main] ERROR c.e.l.logbackexample.App - main: constructor
+20:20:37.973 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:37.973 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:37.973 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:37.973 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+20:20:37.973 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:37.974 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:37.974 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:37.974 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+20:20:57.039 [main] INFO  c.e.l.logbackexample.App - main: constructor
+20:20:57.042 [main] WARN  c.e.l.logbackexample.App - main: constructor
+20:20:57.043 [main] ERROR c.e.l.logbackexample.App - main: constructor
+20:20:57.044 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:57.044 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:57.044 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+20:20:57.045 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+20:20:57.045 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:57.045 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:57.045 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:20:57.045 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+20:21:10.878 [main] INFO  c.e.l.logbackexample.App - main: constructor
+20:21:10.881 [main] WARN  c.e.l.logbackexample.App - main: constructor
+20:21:10.882 [main] ERROR c.e.l.logbackexample.App - main: constructor
+20:21:10.882 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:21:10.883 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:21:10.883 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+20:21:10.883 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+20:21:10.884 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:21:10.884 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:21:10.884 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:21:10.884 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()
+20:21:38.566 [main] INFO  c.e.l.logbackexample.App - main: constructor
+20:21:38.570 [main] WARN  c.e.l.logbackexample.App - main: constructor
+20:21:38.570 [main] ERROR c.e.l.logbackexample.App - main: constructor
+20:21:38.571 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:21:38.571 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: constructor
+20:21:38.571 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: constructor
+20:21:38.571 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: constructor
+20:21:38.572 [main] INFO  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:21:38.572 [main] WARN  c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:21:38.572 [main] ERROR c.e.l.logbackexample.a.Foo - Foo: printingSomething()
+20:21:38.572 [main] ERROR c.e.l.logbackexample.b.Bar - Bar: printingSomething()

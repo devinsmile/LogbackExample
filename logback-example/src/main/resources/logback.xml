@@ -22,9 +22,6 @@
 		<!-- Encoder defaults to ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
 		<encoder>
 			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-			<!-- <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern> -->
-			<!-- <Pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</Pattern> -->
-			<!-- <pattern>%d{yyyy-MM-dd HH:mm:ss}, %p, %c, %t, %r, %ex, %C{1}, %M %m%n</pattern> -->
 		</encoder>
 
 		<!-- ROLLING POLICY -->
@@ -54,10 +51,7 @@
 		<!-- ENCODER -->
 		<!-- encoder defaults to ch.qos.logback.classic.encoder.PatternLayoutEncoder -->
 		<encoder>
-			<pattern>%-5level %logger{36} - %msg%n</pattern>
-			<!-- <pattern>%date{ISO8601} %logger %method%n%level: %message%n</pattern> -->
-			<!-- <pattern>%-4relative [%thread] %-5level %class - %msg%n</pattern> -->
-			<!-- <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern> -->
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
 		</encoder>
 
 		<!-- TARGET -->
